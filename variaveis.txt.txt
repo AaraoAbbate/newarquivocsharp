@@ -1,44 +1,22 @@
-[15:14] RAFAEL NAOKI INOUE YASUE
-
 /* Online C# Compiler and Editor */
-
 using System.IO;
-
 using System;
 
- 
-
 class Program
-
 {
-
     static void Main()
-
     {
-
-        //Comentário de linha 
-
-
-        /* Comentário de múltipla linha
-
-            Pipipi
-
-            Popopo
-
+        //comentario de linha
+        /*
+            comentario de multiplas linhas
+            lnha(1)
+            linha(2)
         */
-
-
-        int idade = 21; 
-
-        string nome = "Rafael Naoki Inoue Yasue";
-
-        double valor = 1000.50
-
-        bool status = true; 
-
-
-        Console.WriteLine($"O usuario {nome} tem {idade} anos.");
-
+        int idade = 40;
+        string nome = "Aarão Abbate";
+        double valor = 1000.50;
+        bool status = true;
+        char letra = 'A';
     }
 
 }
